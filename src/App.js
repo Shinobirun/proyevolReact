@@ -1,6 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
 
+import TaskListComponent from './componets/container/task_list';
+
 function App() {
   return (
     <div className="App">
@@ -17,6 +19,9 @@ function App() {
         >
           Learn React
         </a>
+        {/* componente de listadod e tareas */}
+        <TaskListComponent></TaskListComponent>
+
       </header>
     </div>
   );
